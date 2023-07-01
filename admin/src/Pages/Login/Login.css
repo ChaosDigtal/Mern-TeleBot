@@ -1,0 +1,33 @@
+.text-xl {
+    font-size: 2rem!important;
+    color: #6366F1;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10.5rem;
+    margin-top: -10rem;
+    width: 21rem;
+    height: 20rem;
+    border: 1px solid #6366F1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.password {
+    margin-top: 25px;
+}
+
+.login {
+    margin-top: 25px;
+}
+
+.inline-block {
+    display: inline-block!important;
+}
