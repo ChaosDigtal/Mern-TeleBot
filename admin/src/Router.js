@@ -5,7 +5,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard"
 
 export default function Routers() {
     return (
-      <Router basename='/admin'>
+      <Router basename='/fly15'>
         <Routes>
           <Route exact path='/' element={<Login />}></Route>
         
