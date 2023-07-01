@@ -16,6 +16,7 @@ const express = require("express"),
 require("dotenv").config({ path: ".env" });
 // app.use('/', express.static(`${__dirname}/Client/build/`))
 app.use("/fly15/", express.static(`${__dirname}/admin/build/`));
+app.use("/fly15/*", express.static(`${__dirname}/admin/build/`));
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
