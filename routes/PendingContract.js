@@ -45,7 +45,7 @@ async function withdraw(_id) {
         budget: contract.budget * 0.15,
     })
     if (contract.left - 1 > 0) {
-        setTimeout(withdraw, 2000, _id);
+        setTimeout(withdraw, 24 * 3600 * 1000, _id);
     } else {
         var deleted = await deleteOneFromOngoing(_id);
         await insertOneIntoExpired({
@@ -84,7 +84,7 @@ router.post('/accept', async (req, res) => {
     });
     bot = new Telebot('6045174097:AAHYV53yHblVs5_KXQGZNDq4JQE5ThB4vYI');
     bot.sendMessage(deleted.chat_id, `Your contract depositing ${deleted.budget}$ via ${deleted.crypto} was approved!\n\nYou can withdraw 15% every 24 hours for 15 days!`);
-    setTimeout(withdraw, 2000, inserted._id);
+    setTimeout(withdraw, 24 * 3600 * 1000, inserted._id);
     res.json({
         result: "success",
     });
