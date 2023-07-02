@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fly15/static/css/main.002fea10.css",
+    "main.js": "/fly15/static/js/main.87b2f11b.js",
+    "static/js/787.3ce4cc4d.chunk.js": "/fly15/static/js/787.3ce4cc4d.chunk.js",
+    "static/media/primeicons.svg": "/fly15/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/fly15/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/fly15/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/fly15/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/fly15/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/fly15/static/media/color.6441e63a57ccc5105bad.png",
+    "static/media/logo.svg": "/fly15/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fly15/index.html",
+    "main.002fea10.css.map": "/fly15/static/css/main.002fea10.css.map",
+    "main.87b2f11b.js.map": "/fly15/static/js/main.87b2f11b.js.map",
+    "787.3ce4cc4d.chunk.js.map": "/fly15/static/js/787.3ce4cc4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002fea10.css",
+    "static/js/main.87b2f11b.js"
+  ]
+}
